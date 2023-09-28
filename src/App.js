@@ -8,23 +8,25 @@ import ConcatMe from './component/Concat-Me';
 import Footer from './component/Footer';
 import { Route, Routes } from 'react-router-dom';
 
+
 function App() {
   return (
     <div className="App">
-      
       <Routes>
-        <Route path='/' element={
-          <>
-        <Navbar />
-      <Home />
-      <AboutMe />
-      <Projects />
-      <ConcatMe />
-      <Footer/>
-        </>} />
+        <Route
+          path="/"
+          element={
+            <>
+              <Navbar />
+              <Home />
+              <AboutMe />
+              <Projects />
+              <ConcatMe />
+              <Footer />
+            </>
+          }
+        />
       </Routes>
-      
-      
     </div>
   );
 }

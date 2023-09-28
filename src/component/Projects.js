@@ -110,7 +110,7 @@ function Projects() {
                     </div>
                     <a
                       target="__blank"
-                      href="https://topic-app.surge.sh/"
+                      href="https://h2d0.github.io/Topic/"
                       className="custom-block-icon bg-design  ms-auto"
                     >
                       <i className="fa-solid fa-location-arrow"></i>

@@ -2,10 +2,11 @@ import { useEffect } from "react";
 import '../style/style.css'
 import Aos from "aos";
 import "aos/dist/aos.css";
-
+import {HashLink as Link} from 'react-router-hash-link'
+import { useLocation } from "react-router-dom";
 
 function Navbar() {
-   
+   let location =useLocation()
   
   useEffect(() => {
     Aos.init({
@@ -14,27 +15,28 @@ function Navbar() {
 
     const sections = document.querySelectorAll("section");
 
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      sections.forEach((section) => {
-        const sectionId = section.getAttribute("id");
-        const navlink = document.querySelector(
-          `.nav-list .nav-item a[href="#${sectionId}"]`
-        );
+const handleScroll = () => {
+  const scrollPosition = window.scrollY;
+  sections.forEach((section) => {
+    const sectionId = section.getAttribute("id");
+    const navlink = document.querySelector(
+      `.nav-list .nav-item a[href="#${sectionId}"]`
+    );
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.offsetHeight;
 
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.offsetHeight;
-
-        if (
-          scrollPosition + 220 >= sectionTop &&
-          scrollPosition + 220 < sectionTop + sectionHeight
-        ) {
-          navlink.parentElement.classList.add("active");
-        } else {
-          navlink.parentElement.classList.remove("active");
-        }
-      });
-    };
+    if (navlink) {
+      if (
+        scrollPosition + 220 >= sectionTop &&
+        scrollPosition + 220 < sectionTop + sectionHeight
+      ) {
+        navlink.parentElement.classList.add("active");
+      } else {
+        navlink.parentElement.classList.remove("active");
+      }
+    }
+  });
+};
 
     window.addEventListener("scroll", handleScroll);
     // ########################################################3
@@ -46,7 +48,9 @@ function Navbar() {
       navlink.addEventListener("click", () => {
         navmenu.classList.remove("show-menu");
         navlinks.forEach((navlink) => {
+          console.log(navlink);
           navlink.classList.remove("active");
+          
         });
         navlink.classList.add("active");
       });
@@ -76,12 +80,12 @@ function Navbar() {
       <>
         <div className="header ">
           <div className="main-nav container">
-            <a href="/#" className="nav-logo">
+            <Link to="/" className="nav-logo">
               <span className="nav-logo-icon">
                 <i className="fa-solid fa-code"></i>
               </span>
               <span className="nav-logo-text">Mahmoud Khames</span>
-            </a>
+            </Link>
             <div className="nav-menu">
               <span className="nav-title">menu</span>
               <span className="nav-name">Mahmoud</span>
@@ -112,10 +116,10 @@ function Navbar() {
               </div>
             </div>
             <div className="nav-Button">
-          <label className="switch">
-            <input className="input-check"  type="checkbox"/>
-              <span className="slider"></span>
-        </label>
+              <label className="switch">
+                <input className="input-check" type="checkbox" />
+                <span className="slider"></span>
+              </label>
               <div className="nav-toggle">
                 <i className="fa-solid fa-bars-staggered"></i>
               </div>

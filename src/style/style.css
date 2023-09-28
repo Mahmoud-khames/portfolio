@@ -61,6 +61,9 @@ a{
    column-gap: .5rem;
    color: var(--title-color);
 }
+body.darkTheme .nav-logo{
+    color: var(--title-ligth-color);
+}
 .nav-logo-text{
     font-size:22px;
     font-weight: bold;
@@ -383,6 +386,9 @@ display: none;
             text-shadow: -1px -3px 11px;
             color: var(--black-color);
 }
+body.darkTheme .home .home-text{
+    color: var(--title-ligth-color);
+}
 .home-content .home-p  {
 position: relative;
     text-align: start;
@@ -597,6 +603,9 @@ position: absolute;
              text-shadow: -1px -3px 11px;
              color: var(--black-color);
          }
+                 body.darkTheme .home .home-title {
+                     color: var(--title-ligth-color);
+                 }
          .home-content .home-text {
             display: none;
          }
