@@ -19,7 +19,7 @@ function Projects() {
     }, []);
     return (
       <>
-        <section className="projects" id="projects">
+        <div className="projects mt-5" id="projects">
           <div className="container">
             <div className="row justify-content-center">
               <div className="cont-text">
@@ -57,7 +57,7 @@ function Projects() {
                       </p>
                       <a
                         target="__blank"
-                        href="https://github.com/H2d0/movieslove"
+                        href="https://github.com/Mahmoud-khames/Movieslove"
                         className="icon text-decoration-none"
                       >
                         <i className="fa-brands fa-github github-icon"></i>
@@ -66,7 +66,7 @@ function Projects() {
                     </div>
                     <a
                       target="__blank"
-                      href=" https://h2d0.github.io/movieslove/"
+                      href=" https://mahmoud-khames.github.io/Movieslove/"
                       className="custom-block-icon bg-design  ms-auto"
                     >
                       <i className="fa-solid fa-location-arrow"></i>
@@ -101,7 +101,7 @@ function Projects() {
                       </p>
                       <a
                         target="__blank"
-                        href="https://github.com/H2d0/Topic"
+                        href="https://github.com/Mahmoud-khames/Topic"
                         className="icon text-decoration-none"
                       >
                         <i className="fa-brands fa-github github-icon"></i>
@@ -110,7 +110,7 @@ function Projects() {
                     </div>
                     <a
                       target="__blank"
-                      href="https://h2d0.github.io/Topic/"
+                      href="https://mahmoud-khames.github.io/Topic/"
                       className="custom-block-icon bg-design  ms-auto"
                     >
                       <i className="fa-solid fa-location-arrow"></i>
@@ -118,7 +118,7 @@ function Projects() {
                   </div>
                 </div>
               </div>
-              <div
+              {/* <div
                 className="col-lg-4 col-md-6 col-12 mb-4 mb-4 mb-lg-0"
                 data-aos="fade-left"
               >
@@ -161,7 +161,7 @@ function Projects() {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div
                 className="col-lg-4 col-md-6 col-12 mb-4 mb-4 mb-lg-0"
                 data-aos="fade-right"
@@ -189,7 +189,7 @@ function Projects() {
                       </p>
                       <a
                         target="__blank"
-                        href="https://github.com/H2d0/Dashboard"
+                        href="https://github.com/Mahmoud-khames/Dashboard"
                         className="icon text-decoration-none"
                       >
                         <i className="fa-brands fa-github github-icon"></i>
@@ -198,7 +198,7 @@ function Projects() {
                     </div>
                     <a
                       target="__blank"
-                      href="https://h2d0.github.io/Dashboard/"
+                      href="https://mahmoud-khames.github.io/Dashboard/"
                       className="custom-block-icon bg-design  ms-auto"
                     >
                       <i className="fa-solid fa-location-arrow"></i>
@@ -233,7 +233,7 @@ function Projects() {
                       </p>
                       <a
                         target="__blank"
-                        href="https://github.com/H2d0/Listen"
+                        href="https://github.com/Mahmoud-khames/Listen"
                         className="icon text-decoration-none"
                       >
                         <i className="fa-brands fa-github github-icon"></i>
@@ -242,7 +242,7 @@ function Projects() {
                     </div>
                     <a
                       target="__blank"
-                      href="https://h2d0.github.io/Listen/"
+                      href="https://mahmoud-khames.github.io/Listen/"
                       className="custom-block-icon bg-design  ms-auto"
                     >
                       <i className="fa-solid fa-location-arrow"></i>
@@ -277,7 +277,7 @@ function Projects() {
                       </p>
                       <a
                         target="__blank"
-                        href="https://github.com/H2d0/Game"
+                        href="https://github.com/Mahmoud-khames/Game"
                         className="icon text-decoration-none"
                       >
                         <i className="fa-brands fa-github github-icon"></i>
@@ -286,7 +286,7 @@ function Projects() {
                     </div>
                     <a
                       target="__blank"
-                      href="https://h2d0.github.io/Game/"
+                      href="https://mahmoud-khames.github.io/Game/"
                       className="custom-block-icon bg-design  ms-auto"
                     >
                       <i className="fa-solid fa-location-arrow"></i>
@@ -321,7 +321,7 @@ function Projects() {
                       </p>
                       <a
                         target="__blank"
-                        href="https://github.com/H2d0/Github-Profile"
+                        href="https://github.com/Mahmoud-khames/Github-Profile"
                         className="icon text-decoration-none"
                       >
                         <i className="fa-brands fa-github github-icon"></i>
@@ -330,7 +330,7 @@ function Projects() {
                     </div>
                     <a
                       target="__blank"
-                      href="https://h2d0.github.io/Github-Profile/"
+                      href="https://mahmoud-khames.github.io/Github-Profile/"
                       className="custom-block-icon bg-design  ms-auto"
                     >
                       <i className="fa-solid fa-location-arrow"></i>
@@ -365,7 +365,7 @@ function Projects() {
                       </p>
                       <a
                         target="__blank"
-                        href="https://github.com/H2d0/Todo-List"
+                        href="https://github.com/Mahmoud-khames/ToDo-List"
                         className="icon text-decoration-none"
                       >
                         <i className="fa-brands fa-github github-icon"></i>
@@ -374,7 +374,7 @@ function Projects() {
                     </div>
                     <a
                       target="__blank"
-                      href="https://h2d0.github.io/Todo-List/"
+                      href="https://mahmoud-khames.github.io/ToDo-List/"
                       className="custom-block-icon bg-design  ms-auto"
                     >
                       <i className="fa-solid fa-location-arrow"></i>
@@ -384,7 +384,7 @@ function Projects() {
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </>
     );
 }

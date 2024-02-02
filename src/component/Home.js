@@ -15,7 +15,7 @@ function Home() {
   },[])
     return (
       <>
-        <section className="home" id="home">
+        <div className="home " id="home">
           <h2 className="home-title">Mahmoud Khames</h2>
           <div className="container">
             <div className="row justify-content-center">
@@ -23,7 +23,7 @@ function Home() {
                 <div className="home-content">
                   <h2 className="home-text">Mahmoud Khames</h2>
                   <p className="home-p">
-                    <span>Frontend Developer</span>, with knowledge In web
+                    <span>Frontend Developer React && Backend Developer Node JS </span>, with knowledge In web
                     development and design, I offer the best projects resulting
                     in quality work.
                   </p>
@@ -47,7 +47,7 @@ function Home() {
                       </a>
                     </div>
                     <div className="social-icon">
-                      <a target="__blank" href="https://github.com/H2d0">
+                      <a target="__blank" href="https://github.com/Mahmoud-khames">
                         <i className="fa-brands fa-github social-icon"></i>
                       </a>
                     </div>
@@ -74,7 +74,7 @@ function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </>
     );
 }

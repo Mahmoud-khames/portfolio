@@ -29,7 +29,7 @@ body.darkTheme{
 body{
     background-color: var(--body-color) !important;
     scroll-behavior: smooth;
-    height: 200vh;
+
 
 }
 
@@ -372,7 +372,6 @@ display: none;
     overflow: hidden;
     width: 100%;
     padding-top: 200px;
-    padding-bottom: 200px;
 }
 
 .home-content .home-text  {

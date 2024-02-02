@@ -41,7 +41,7 @@ useEffect(() => {
  
     return (
       <>
-        <section className="concat-me" id="concat-me">
+        <div className="concat-me mt-5" id="concat-me">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-5 col-12 mb-5" data-aos="fade-right">
@@ -205,7 +205,7 @@ useEffect(() => {
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </>
     );
 }

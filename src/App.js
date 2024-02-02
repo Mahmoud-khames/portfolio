@@ -19,10 +19,33 @@ function App() {
             <>
               <Navbar />
               <Home />
+            </>
+          }
+        />
+        <Route
+          path="/aboutMe"
+          element={
+            <>
+              <Navbar />
               <AboutMe />
+            </>
+          }
+        />
+        <Route
+          path="/projects"
+          element={
+            <>
+              <Navbar />
               <Projects />
+            </>
+          }
+        />
+        <Route
+          path="/concatMe"
+          element={
+            <>
+              <Navbar />
               <ConcatMe />
-              <Footer />
             </>
           }
         />
