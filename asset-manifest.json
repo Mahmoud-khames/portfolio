@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e49492fd.css",
-    "main.js": "/static/js/main.dc6db290.js",
+    "main.css": "/static/css/main.87eec122.css",
+    "main.js": "/static/js/main.6fc06a50.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/IMG_20230808_142006.jpg": "/static/media/IMG_20230808_142006.52be01dc3e394dbb7acb.jpg",
     "static/media/IMG_20230806_114822.jpg": "/static/media/IMG_20230806_114822.de03ad5fc6193d3a6792.jpg",
@@ -15,12 +15,12 @@
     "static/media/image_processing20220510-29585-hiltd0.png": "/static/media/image_processing20220510-29585-hiltd0.7ae22a48cac871c8a5ed.png",
     "static/media/screencapture-h2d0-github-io-Game-2023-08-08-21_05_11.png": "/static/media/screencapture-h2d0-github-io-Game-2023-08-08-21_05_11.e47ce3bf1dcc3accaf64.png",
     "index.html": "/index.html",
-    "main.e49492fd.css.map": "/static/css/main.e49492fd.css.map",
-    "main.dc6db290.js.map": "/static/js/main.dc6db290.js.map",
+    "main.87eec122.css.map": "/static/css/main.87eec122.css.map",
+    "main.6fc06a50.js.map": "/static/js/main.6fc06a50.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e49492fd.css",
-    "static/js/main.dc6db290.js"
+    "static/css/main.87eec122.css",
+    "static/js/main.6fc06a50.js"
   ]
 }
