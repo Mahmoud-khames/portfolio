@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e49492fd.css",
+    "main.js": "/static/js/main.dc6db290.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/IMG_20230808_142006.jpg": "/static/media/IMG_20230808_142006.52be01dc3e394dbb7acb.jpg",
+    "static/media/IMG_20230806_114822.jpg": "/static/media/IMG_20230806_114822.de03ad5fc6193d3a6792.jpg",
+    "static/media/screencapture-h2d0-github-io-movieslove-2023-09-03-18_17_11.png": "/static/media/screencapture-h2d0-github-io-movieslove-2023-09-03-18_17_11.dd973a96474376f2c3c9.png",
+    "static/media/screencapture-la-collection-surge-sh-2023-08-08-17_45_43.png": "/static/media/screencapture-la-collection-surge-sh-2023-08-08-17_45_43.8cf34b65db3ebe87e519.png",
+    "static/media/screencapture-h2d0-github-io-Listen-2023-08-08-17_41_31.png": "/static/media/screencapture-h2d0-github-io-Listen-2023-08-08-17_41_31.909c941ee951cd92ee54.png",
+    "static/media/screencapture-topic-app-surge-sh-2023-08-08-21_01_11.png": "/static/media/screencapture-topic-app-surge-sh-2023-08-08-21_01_11.098b7b5063ad170bffb7.png",
+    "static/media/screencapture-h2d0-github-io-Todo-List-2023-08-08-21_04_33.png": "/static/media/screencapture-h2d0-github-io-Todo-List-2023-08-08-21_04_33.f03a2e9285772ad1af0c.png",
+    "static/media/screencapture-h2d0-github-io-Github-Profile-2023-08-09-20_30_36.png": "/static/media/screencapture-h2d0-github-io-Github-Profile-2023-08-09-20_30_36.2d787f3726aa3c71487c.png",
+    "static/media/screencapture-h2d0-github-io-Dashboard-2023-08-08-17_42_34.png": "/static/media/screencapture-h2d0-github-io-Dashboard-2023-08-08-17_42_34.ce2e6a414ac59c8532d9.png",
+    "static/media/image_processing20220510-29585-hiltd0.png": "/static/media/image_processing20220510-29585-hiltd0.7ae22a48cac871c8a5ed.png",
+    "static/media/screencapture-h2d0-github-io-Game-2023-08-08-21_05_11.png": "/static/media/screencapture-h2d0-github-io-Game-2023-08-08-21_05_11.e47ce3bf1dcc3accaf64.png",
+    "index.html": "/index.html",
+    "main.e49492fd.css.map": "/static/css/main.e49492fd.css.map",
+    "main.dc6db290.js.map": "/static/js/main.dc6db290.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e49492fd.css",
+    "static/js/main.dc6db290.js"
+  ]
+}
